@@ -1,8 +1,8 @@
 import axios from "axios";
 
-//https://stack-overflow-clone-deepak.onrender.com
+//
 const API = axios.create({
-  baseURL: "https://stack-overflow-clone-deepak.onrender.com",
+  baseURL: "",
 });
 
 API.interceptors.request.use((req) => {
